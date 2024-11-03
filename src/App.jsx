@@ -1,16 +1,21 @@
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import WelcomePage from './components/WelcomePage';
+import CalculatorPage from './components/CalculatorPage';
 import './App.css'
-import Navbar from './components/navbar'
-import Banner from './components/Banner'
-import CardContainer from './components/CardContainer'
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Banner />
-      <CardContainer />
-    </div>
-  )
+
+    <Router>
+      <div className='App'>
+        <Routes>
+          <Route path='/' element={<WelcomePage />} />
+          <Route path='/calculator' element={<CalculatorPage />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;

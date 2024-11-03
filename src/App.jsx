@@ -11,7 +11,6 @@ function App() {
       <CardContainer />
     </div>
   )
-  
 }
 
 export default App

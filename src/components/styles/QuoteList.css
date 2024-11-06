@@ -1,0 +1,67 @@
+.quote-list {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.quote-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px; 
+    margin: 15px auto;
+}
+
+.quote-card p {
+    font-size: 0.9em;
+}
+
+.quote-client {
+    flex: 1;
+    max-width: 180px;
+}
+
+.quote-services {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.quote-total {
+    flex: 0.5;
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.quote-services ul {
+    padding-left: 20px;
+    margin: 0;
+    list-style: disc; /* Для более читаемого списка */
+}
+
+.quote-card h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.quote-card p {
+    margin: 5px 0;
+}
+
+.quote-card .total-text {
+    font-weight: bold;
+    color: #555;
+    font-size: 1.1em;
+}
